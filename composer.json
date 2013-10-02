@@ -1,0 +1,21 @@
+{
+    "name": "nativgames/pegase-external-michelf-markdown",
+    "type": "library",
+    "description" : "The Pegase Michelf Markdown Bridge",
+    "require": {
+        "php": ">=5.3.0",
+
+        "michelf/php-markdown": "1.3"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3.x-dev"
+        }
+    },
+
+    "autoload": {
+      "psr-0": {"": "src/"}
+    }
+}
+
